@@ -3,8 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>选择器</title>
+  <style TYPE="text/css">
+
+    .box1{
+      /* control class */
+      color: pink;
+    }
+    #p1{
+      /* control id*/
+      color: aquamarine;
+      font-size: 30px;
+    }
+    p{
+      /* control <p> elements*/
+      font-style: oblique;
+    }
+    #p2, .text{
+      /* control several elements*/
+      font-style: italic;
+    }
+    *{
+      /* control all elements*/
+      font-size: x-large;
+    }
+    p#p2{
+      /* control specific element <p class="p2>*/
+      background-color: #b289d9;
+    }
+    div span{
+      /* control descendant elements <div><span></span></div>*/
+      background-color: aliceblue;
+    }
+    #box2 p span{
+      /* 后代选择器 操作id属性是box2的元素的子元素是p的子元素是span */
+      background-color: crimson;
+    }
+    div > h1{
+      /* 子元素选择器 选中指定父元素的指定子元素*/
+      background-color: coral;
+    }
+  </style>
 </head>
 <body>
-  
+  <div class="box1">
+    <p id="p1">哈哈哈哈哈</p>
+    <p id="p2">呵呵呵呵呵</p>
+  </div>
+  <div id="box2">
+    <p>
+      <span class="text">嘻嘻嘻嘻嘻</span>
+    </p>
+  </div>
+    <div><h1>啦啦啦啦啦</h1></div>
 </body>
 </html>

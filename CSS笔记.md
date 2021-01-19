@@ -24,13 +24,23 @@
       // 直接操作全部p元素
       font-size: 50px
   }
-  
   .show {
       // 操作class属性为show的元素
   }
-  
   #bnt {
       // 操作id属性为btn的元素
+  }
+  div.btn_enter {
+      // 操作class属性为btn_enter的div元素
+  }
+  div span {
+      // 操作父元素是div的span元素
+  }
+  #box2 p span{
+  	// 后代选择器 操作id属性是box2的元素的子元素是p的子元素是span
+  }
+  div > h1{
+  	// 子元素选择器 选中指定父元素的指定子元素
   }
   ```
 
