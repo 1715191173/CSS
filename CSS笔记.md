@@ -46,4 +46,65 @@
 
   
 
-- 
+- **伪类选择器**
+
+  ```css
+  a:link{
+  	/* 没访问过的css*/
+  	color: greenyellow;
+  }
+  a:visited{
+  	/* 浏览过的css*/
+  	color: #cd8c26;
+  }
+  a:link{
+  	/* 没访问过的css*/
+  	color: greenyellow;
+  }
+  a:visited{
+  	/*
+  	 * 浏览过的css
+  	 * 浏览器根据历史记录判断链接是否访问过
+  	 * 由于涉及到用户隐私，所以只能设置字体
+  	 */
+  	color: #cd8c26;
+  }
+  a:hover{
+  	/* 表示鼠标移动到链接上*/
+  	color: skyblue;
+  }
+  a:active{
+  	/* 超链接被点击的状态*/
+  	color: #1b1813;
+  }
+  p:hover{
+      /* 鼠标移动到某个元素上面时 */
+      background-color: cornflowerblue;
+  }
+  input:focus{
+      background-color: pink;
+  }
+  p::selection{
+      /* 选中某个元素时 */
+      background-color: #cd8c26;
+  }
+    /*  低版本火狐浏览器需要用到 */
+  p::-moz-selection{
+        
+  }
+  ```
+
+  
+
+- **伪元素**
+
+  ```css
+  p:first-letter{
+      /* 为p中第一个字符设置特殊格式*/
+      color: salmon;
+      font-size: 30px;	
+  }
+  ```
+
+  
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>伪类选择器</title>
+  <style type="text/css">
+    a:link{
+      /* 没访问过的css*/
+      color: greenyellow;
+    }
+    a:visited{
+      /*
+       * 浏览过的css
+       * 浏览器根据历史记录判断链接是否访问过
+       * 由于涉及到用户隐私，所以只能设置字体
+       */
+      color: #cd8c26;
+    }
+    a:hover{
+      /* 表示鼠标移动到链接上 */
+      color: skyblue;
+    }
+    a:active{
+      /* 超链接被点击的状态 */
+      color: #1b1813;
+    }
+    p:hover{
+      /* 鼠标移动到某个元素上面时 */
+      background-color: cornflowerblue;
+    }
+    input:focus{
+      background-color: pink;
+    }
+    p::selection{
+      /* 选中某个元素时 */
+      background-color: #cd8c26;
+    }
+  /*  低版本火狐浏览器需要用到 */
+    p::-moz-selection{
+
+    }
+  </style>
+</head>
+<body>
+<a href="#">链接1</a>
+<br><br><br>
+<a href="#1">链接2</a>
+<br>
+<p>哈哈哈哈</p>
+<input type="text">
+<br>
+<p>呵呵呵呵</p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style type="text/css">
+    p:first-letter{
+      /* 为p中第一个字符设置特殊格式*/
+      color: salmon;
+      font-size: 30px;
+    }
+    p:first-line{
+      /* 为p中第一行设置特殊格式*/
+      background-color: burlywood;
+    }
+    p:before{
+      /*
+       * :before表示元素的最前边的部分
+       * :after表示元素的最后边的部分
+       * 一般都需要结合content央视一起使用
+       * 通过content可以向before或after的位置添加一些内容
+       */
+      content: "在P标签的前面";
+      color: blueviolet;
+    }
+  </style>
+</head>
+<body>
+  <p>我是一大段文字</p>
+  <br>
+  <p>我是一大段文字我是一大段文字我是一大段文字我是一大段文字我是一大段文字
+    我是一大段文字我是一大段文字我是一大段文字我是一大段文字我是一大段文字
+    我是一大段文字我是一大段文字我是一大段文字我是一大段文字我是一大段文字
+    我是一大段文字我是一大段文字我是一大段文字我是一大段文字我是一大段文字
+    我是一大段文字我是一大段文字我是一大段文字我是一大段文字我是一大段文字
+    我是一大段文字我是一大段文字我是一大段文字我是一大段文字我是一大段文字
+    我是一大段文字我是一大段文字我是一大段文字我是一大段文字我是一大段文字</p>
+</body>
+</html>
