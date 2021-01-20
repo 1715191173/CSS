@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a0f74c1-690c-47a7-b3f1-e13e66e287bb" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,7 +66,7 @@
       <workItem from="1611031211477" duration="231000" />
       <workItem from="1611031536977" duration="11312000" />
       <workItem from="1611113855248" duration="677000" />
-      <workItem from="1611137016332" duration="6331000" />
+      <workItem from="1611137016332" duration="7168000" />
     </task>
     <servers />
   </component>
