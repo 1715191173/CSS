@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>兄弟元素选择器</title>
+</head>
+  <style type="text/css">
+    span ~ p{
+      /* + 设置span后的一个p元素
+       * ~ 设置span后的一个p元素
+       * 兄弟选择器
+       *   前者元素的后紧挨着指定的兄弟元素
+       *
+       */
+      color: blueviolet;
+    }
+    p:not(.special){
+      /* 否定伪类
+       * 操作不符合id/class等属性的元素
+       */
+      background-color: #f9e4ac;
+    }
+  </style>
+<body>
+  <p>我是一个p标签</p>
+  <p class="special">我是一个p标签</p>
+  <p>我是一个p标签</p>
+  <span>我是一个span标签</span>
+<!--  <div><p>我是div里的p元素</p></div>-->
+  <p>我是一个p标签</p>
+  <p>我是一个p标签</p>
+  <p>我是一个p标签</p>
+</body>
+</html>

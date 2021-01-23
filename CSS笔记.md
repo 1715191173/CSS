@@ -129,7 +129,52 @@
       content: "在P标签的前面";
       color: blueviolet;
   }
+  body > p:first-child{
+    /* body下的第一个元素p */
+      background-color: #f9e4ac;
+  }
+  p:nth-child(2){
+      /* 选取第二个元素(默认是body下的)
+       * 参数为even选取偶数
+       * 参数为odd选取奇数
+       */
+  	background-color: #999999;
+  }
+  p:first-of-type{
+      /* 选取第一个指定的元素 */
+      background-color: #cd8c26;
+  }
+  
+    /*  注意：
+     *  child是在所有的子元素中排列
+     *  type是在当前类型的子元素中排列
+     */
+  ```
+  
+  
+  
+- **兄弟元素选择器**
+
+  ```css
+  span ~ p{
+      /* + 设置span后的一个p元素
+       * ~ 设置span后的一个p元素
+       * 兄弟选择器
+       *   前者元素的后紧挨着指定的兄弟元素
+       */
+  	color: blueviolet;
+  }
   ```
 
   
+  
+- 优先级规则
+  内联样式(即直接在元素中控制)      1000
+  id选择器                                           100
+  类和伪类                                           10
+  元素选择器                                       1
+  通配                                                   0
+  继承的样式                                       没有优先级
+
+  ⭐当选择其中包含多种选择器的时候，需要将多种选择器的优先级相加然后再比较
 

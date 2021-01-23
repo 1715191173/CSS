@@ -16,11 +16,19 @@
         <item name="GROUP_NODE:css" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:css" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a0f74c1-690c-47a7-b3f1-e13e66e287bb" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/伪元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/伪元素.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,7 +75,12 @@
       <workItem from="1611031211477" duration="231000" />
       <workItem from="1611031536977" duration="11312000" />
       <workItem from="1611113855248" duration="677000" />
-      <workItem from="1611137016332" duration="7168000" />
+      <workItem from="1611137016332" duration="7652000" />
+      <workItem from="1611208511575" duration="1708000" />
+      <workItem from="1611290454321" duration="1906000" />
+      <workItem from="1611296634882" duration="4412000" />
+      <workItem from="1611324561296" duration="2873000" />
+      <workItem from="1611370173465" duration="7865000" />
     </task>
     <servers />
   </component>
@@ -90,9 +104,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1611113923714" />
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1611114200477">
+    <state x="922" y="188" key="SettingsEditor" timestamp="1611377851086">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1611114200477" />
+    <state x="922" y="188" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611377851086" />
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1611374519588">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1611374519588" />
   </component>
 </project>
