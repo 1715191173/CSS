@@ -28,7 +28,6 @@
     <list default="true" id="9a0f74c1-690c-47a7-b3f1-e13e66e287bb" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/伪元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/伪元素.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,15 @@
       <workItem from="1611290454321" duration="1906000" />
       <workItem from="1611296634882" duration="4412000" />
       <workItem from="1611324561296" duration="2873000" />
-      <workItem from="1611370173465" duration="7865000" />
+      <workItem from="1611370173465" duration="8367000" />
+      <workItem from="1611396909610" duration="1399000" />
+      <workItem from="1611414903234" duration="1038000" />
+      <workItem from="1611464547444" duration="936000" />
+      <workItem from="1611480603589" duration="5347000" />
+      <workItem from="1611552399947" duration="623000" />
+      <workItem from="1611554762053" duration="14000" />
+      <workItem from="1611581725733" duration="1836000" />
+      <workItem from="1611657467640" duration="296000" />
     </task>
     <servers />
   </component>
