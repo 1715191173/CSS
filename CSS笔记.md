@@ -472,3 +472,31 @@ opacity设置元素的透明度，参考值为0-1。且**IE8及以下**需要设
        */
       background-repeat: repeat-y;
 ```
+
+**背景位置属性**(background-position)可以调整图片的位置
+
+**背景固定属性**(background-attachment)
+
+属性缩写：直接填写，没有顺序要求
+
+#### 表格Table
+
+表格也是一个块元素，**tr**代表行(其中**th**代表标题)，**td**代表列
+
+补充：在HTML中，当表格非常长的时候，这时候可以将表格分为三个部分：表头 **thead**、表格主体 **tbody**（当年没有添加thead、tobody、tfoot时，默认会把东西全部放在tbody）、表格底部**tfoot** 这些元素是**table的子元素**，**tr的父元素**
+
+```html
+<table>
+    <tr>
+    	<td>A1</td>
+        <td>A2</td>
+        <td>A3</td>
+    </tr>
+    <tr></tr>
+</table>
+```
+
+**colspan** 横向合并单元格，**rowspan** 纵向合并单元格
+
+隔行变色 tr:nth-child(odd){background-color: ...;}
+
