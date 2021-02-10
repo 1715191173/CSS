@@ -105,7 +105,8 @@
       <workItem from="1612677383307" duration="1970000" />
       <workItem from="1612699603144" duration="1591000" />
       <workItem from="1612870498118" duration="1953000" />
-      <workItem from="1612921032805" duration="4863000" />
+      <workItem from="1612921032805" duration="5499000" />
+      <workItem from="1612948939941" duration="6858000" />
     </task>
     <servers />
   </component>
@@ -115,11 +116,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -145,9 +176,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1096" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1611912822292" />
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1612627064975">
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1612957948756">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612627064975" />
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612957948756" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-### CSS笔记
+# CSS笔记
 
 
 
@@ -311,9 +311,9 @@ border 可以设置边框线条样式、颜色、粗细(不分顺序)【但是�
 盒子与其他盒子之间的距离。其不会影响可见框的大小，而是会影响到盒子的位置
 margin-left和margin-right同时设置为auto时候，则会将两侧的外边距设置为相同的值
 
-⭐关于垂直外边距重叠: 
+⭐关于**垂直外边距**重叠: 
 ① 在网页**垂直方向**的**相邻**外边距会发生外边距的重叠，即指**兄弟元素**之间的相邻外边距会取得最大值而不是取和
-② 如果父子元素的垂直外边距相邻，则子元素的外边距会设置给父元素（可以给元素加border或padding）
+② 如果父子元素的垂直外边距相邻，则子元素的外边距会设置给父元素（可以给元素加border或padding）[最终解决方案](#⭐父子元素影响的布局问题)
 
 
 
@@ -496,7 +496,77 @@ opacity设置元素的透明度，参考值为0-1。且**IE8及以下**需要设
 </table>
 ```
 
-**colspan** 横向合并单元格，**rowspan** 纵向合并单元格
+ 
+
+ 横向合并单元格，**rowspan** 纵向合并单元格
 
 隔行变色 tr:nth-child(odd){background-color: ...;}
 
+#### 表单Form
+
+必须要有**action**属性，用来指定提交的服务器，**name**属性表示提交内容的名字 
+其中input中
+type属性 radio，是**单选**选项，name一样的为一组
+type属性 checkbox为**多选**选项
+\<textarea> 标签为文本域
+
+以下构成下拉列表 且multiple属性设置为multiple，则是展开列表；optgroup属性用于给选项分组
+
+```html
+<select>
+    <optgroup label="男明星">
+        <option>普通的展开列表</option>
+    </optgroup>
+</select>
+```
+
+label标签可以用于指引**相关文字**关联**文本框**(input)，需要**input的id**属性对应**label的for**属性
+
+最后，在表单中可以使用\<fieldset>来为表单项进行分组，其**子元素**\<legend>
+
+#### ⭐父子元素影响的布局问题
+
+[垂直外边距问题](#外边距margin)的解决方法在子元素中加入\<table>兄弟元素
+
+```css
+.xxx:bofore{
+	content: "";
+	display: table;
+}
+```
+
+最终，解决**高度塌陷**以及**垂直外边距重叠**的方案
+
+```css
+.clearfix:brefore,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfix{
+    zoom: 1
+}
+```
+
+
+
+#### 框架集
+
+框架集 和 内联框架作用类似，但是框架集可以同时引入多个页面，而内联框架只能引入一个。在H5标准中，推荐使用框架集。
+
+利用\<frameset>创建一个框架集，但是其不能和body出现在同一个页面中，即如果使用框架集则不能使用body标签。rows指定按行排列，cols指定按列排列。例如：
+
+```html
+<frameset cols="30%, *, 20%">
+    <frame src="..."/>
+    <frame src="..."/>
+    <frame src="..."/>
+</frameset>
+```
+
+
+
+#### 条件hack 和 属性hack 
+
+由于不同版本的浏览器存在兼容性问题，通过设置hack来来针对性解决
