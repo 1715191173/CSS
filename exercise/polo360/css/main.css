@@ -1,0 +1,64 @@
+body{
+  background: url(../img/bd-bg.png) repeat-x;
+  height: 5000px;
+}
+
+.header{
+  padding-top: 37px;
+  padding-bottom: 46px;
+}
+
+.w{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.logo{
+  margin-left: 15px;
+}
+
+.nav{
+  float: right;
+  margin-top: 22px;
+}
+
+.nav li{
+  float: left;
+  padding: 0 10px 8px;
+  border-left: 1px #d6d6d6 dotted;
+}
+
+.nav a {
+  font: bold 14px Georgia;
+  color: #666;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  color: #a1a1a1;
+  text-decoration: underline;
+}
+
+.nav p{
+  font: 11px Tahoma;
+  color: #b7b7b7;
+}
+
+.banner{
+  height: 354px;
+  background: url("../img/banner-bd.png") no-repeat bottom center;
+}
+
+.pointerDiv a{
+  float: left;
+  width: 17px;
+  height: 17px;
+  margin-left: 4px;
+  background: url("../img/pointer.png");
+}
+
+.pointerDiv .active,
+.pointerDiv a:hover{
+  background: url("../img/pointer-click.png");
+}
+

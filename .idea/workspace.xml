@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a0f74c1-690c-47a7-b3f1-e13e66e287bb" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,6 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vue精简版/和风天气" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -107,6 +108,10 @@
       <workItem from="1612870498118" duration="1953000" />
       <workItem from="1612921032805" duration="5499000" />
       <workItem from="1612948939941" duration="6858000" />
+      <workItem from="1613033615979" duration="1071000" />
+      <workItem from="1613054513833" duration="4893000" />
+      <workItem from="1613133593382" duration="1508000" />
+      <workItem from="1613142696496" duration="2210000" />
     </task>
     <servers />
   </component>
@@ -164,6 +169,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="922" y="188" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611377851086" />
+    <state x="1032" y="276" key="Vcs.Push.Dialog.v2" timestamp="1613135389790">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1032" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1613135389790" />
     <state x="1053" y="100" width="774" height="887" key="dock-window-1" timestamp="1612347343847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -176,9 +185,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1096" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1611912822292" />
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1612957948756">
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1613135529103">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612957948756" />
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1613135529103" />
   </component>
 </project>
