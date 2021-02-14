@@ -27,6 +27,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9a0f74c1-690c-47a7-b3f1-e13e66e287bb" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/polo360.psd" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/polo360.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/polo360/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/polo360/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/polo360/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/polo360/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +116,13 @@
       <workItem from="1613054513833" duration="4893000" />
       <workItem from="1613133593382" duration="1508000" />
       <workItem from="1613142696496" duration="2210000" />
+      <workItem from="1613181627586" duration="9000000" />
+      <workItem from="1613203220952" duration="3300000" />
+      <workItem from="1613219985473" duration="5587000" />
+      <workItem from="1613270642764" duration="779000" />
+      <workItem from="1613275366356" duration="1038000" />
+      <workItem from="1613276920694" duration="8330000" />
+      <workItem from="1613290220879" duration="5494000" />
     </task>
     <servers />
   </component>
@@ -185,9 +196,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1096" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1611912822292" />
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1613135529103">
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1613290281266">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1613135529103" />
+    <state x="490" y="191" width="538" height="543" key="search.everywhere.popup/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1613203257257" />
+    <state x="613" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1613290281266" />
   </component>
 </project>

@@ -1,6 +1,18 @@
 body{
   background: url(../img/bd-bg.png) repeat-x;
-  height: 5000px;
+}
+
+/*
+ * 解决高度塌陷
+ */
+.clearfix:before,
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
 }
 
 .header{
@@ -47,6 +59,13 @@ body{
 .banner{
   height: 354px;
   background: url("../img/banner-bd.png") no-repeat bottom center;
+  position: relative;
+}
+
+.pointerDiv{
+  position: absolute;
+  top: 314px;
+  left: 15px;
 }
 
 .pointerDiv a{
@@ -62,3 +81,222 @@ body{
   background: url("../img/pointer-click.png");
 }
 
+.content{
+  /*background-color: #c290bd;*/
+  height: 500px;
+}
+
+.content h1{
+  text-align: center;
+  font: bold 24px Georgia;
+  padding: 6px 0 20px 0;
+  margin-bottom: 38px;
+  background: url("../img/line.png") no-repeat bottom center;
+}
+
+.content .pl, .content .cs, .content .uc,
+.contact .sc, .contact .co, .contact .nu{
+  float: left;
+  /*background-color: #c290bd;*/
+  width: 300px;
+}
+
+.content .cs, .contact .co{
+  margin: 0 20px;
+}
+
+.content h2{
+  color: #117191;
+  font: 21px Georgia;
+}
+
+.content .p1{
+  color: #8c8c8c;
+  font: 11px "Helvetica Neue";
+  /*
+   * 固定字间距 避免不同浏览器器之间的差异显示
+   */
+  letter-spacing: 0px;
+}
+
+.content .imgDiv{
+  width: 299px;
+  height: 190px;
+  background: url("../img/img-bd.png") no-repeat ;
+  margin: 14px 0px 10px 0px;
+  /* 图片水平居中*/
+  text-align: center;
+  padding-top: 12px;
+  /* 此时需要注意添加内边距会导致整个框变大，此时需要把height减掉 */
+}
+
+.content .p2{
+  height: 92px;
+  color: #3e3e3e;
+  font: 13px "Microsoft JhengHei";
+  word-spacing: 2px;
+}
+
+.content .lm{
+  display: block;
+  width: 163px;
+  height: 40px;
+  background: url("../img/bnt1.png") no-repeat;
+  color: #016999;
+  font: 12px/40px Heather;
+  text-indent: 1em;
+  margin-bottom: 34px;
+}
+
+.contact .sc, .contact .co, .contact .nu{
+  /*height: 500px;*/
+  /*background-color: #c290bd;*/
+}
+
+.contact{
+  background: url("../img/line.png") no-repeat;
+}
+
+.contact h2{
+  font: 18px/1 Georgia;
+  color: #444;
+  border-bottom: 1px dashed #d3d3d3;
+  padding: 44px 0px 10px 0px;
+  margin-bottom: 15px;
+}
+
+.contact .txt{
+  width: 276px;
+  height: 33px;
+  /*
+   * 保证不同浏览器显示字体可以垂直居中
+   */
+  line-height: 33px;
+  background: url("../img/input.png") no-repeat;
+  /*
+   * 去除默认边框
+   */
+  border: none;
+
+  /*
+   * 去除默认内外边距，统一各个浏览器中显示的样式
+   */
+  padding: 0px 10px;
+  margin: 0px 0px 16px;
+
+  /*
+   * 单独为IE6设置背景不随元素滚动
+   */
+  _background-attachment: fixed;
+}
+
+.contact .tarea{
+  width: 276px;
+  height: 134px;
+  background: url("../img/input-area.png") no-repeat;
+  border: none;
+  overflow: auto;
+  resize: none;
+
+  padding: 10px;
+  _background-attachment: fixed;
+}
+
+.contact .btn{
+  width: 163px;
+  height: 32px;
+  background: url("../img/input-btn.png") no-repeat;
+
+  border: none;
+  margin: 11px 0px 23px 4px;
+
+  color: white;
+  font: 13px Georgia;
+  text-align: left;
+  text-indent: 1em;
+
+  cursor: pointer;
+}
+
+.sc .p1{
+  color: #444;
+  font-size: 12px;
+}
+
+.sc .icon{
+  font-size: 0;
+  margin-top: 14px;
+  background-color: #c290bd;
+}
+
+.sc .icon a{
+  margin-right: 3px;
+}
+
+.sc .nl{
+  font: bold 18px/1 "Fira Code";
+  padding: 23px 0 10px 0;
+}
+
+.sc .sc_bottom{
+  margin-bottom: 13px;
+}
+
+.sc .btn{
+  margin-top: 15px;
+}
+
+
+.nu p{
+  color: #444;
+  font: 12px/1 "Helvetica Neue";
+  height: 58px;
+
+  border-bottom: 1px dashed #d3d3d3;
+
+  margin-bottom: 14px;
+  padding-bottom: 9px;
+}
+
+.nu img{
+  float: left;
+
+  margin-right: 8px;
+}
+
+.nu .btn{
+  margin-top: 17px;
+}
+
+.footer{
+  margin-top: 8px;
+  border-top: 10px #4c4c4c solid;
+  height: 173px;
+  background-color: #333;
+  font: 11px "Helvetica Neue";
+  color: #999;
+}
+
+.footer p{
+  letter-spacing: 0px;
+  padding: 2px 0;
+}
+
+.footer .p1{
+  float: right;
+  color: #999;
+  margin-right: 3px;
+}
+
+.footer a{
+  color: #999;
+}
+
+.footer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.footer .bottom{
+  padding-top: 17px;
+}
