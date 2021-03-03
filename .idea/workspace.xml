@@ -28,9 +28,7 @@
     <list default="true" id="9a0f74c1-690c-47a7-b3f1-e13e66e287bb" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/polo360.psd" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/polo360.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/polo360/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/polo360/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/polo360/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/polo360/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-diner-develop/ANSWER.md" beforeDir="false" afterPath="$PROJECT_DIR$/css-diner-develop/ANSWER.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vue精简版/和风天气" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSS3 HTML5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -123,6 +121,8 @@
       <workItem from="1613275366356" duration="1038000" />
       <workItem from="1613276920694" duration="8330000" />
       <workItem from="1613290220879" duration="5494000" />
+      <workItem from="1613307380212" duration="1278000" />
+      <workItem from="1613383472892" duration="102000" />
     </task>
     <servers />
   </component>
@@ -172,10 +172,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1612344966461">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1613383572642">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612344966461" />
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1613383572642" />
     <state x="922" y="188" key="SettingsEditor" timestamp="1611377851086">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

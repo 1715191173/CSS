@@ -1,6 +1,11 @@
 # CSS笔记
 
+#### CSS建议书写顺序
 
+1. 布局定位属性：display / position / float / clear / visibility / overflow
+2. 自身属性：width / height / margin / padding / border /background
+3. 文本属性：color / font / text-decoration / text-align / vertical-align / white-space / break-word
+4. 其他属性(CSS3)：content / cursor / border-radius / box-shadow / text-shadow / background: linear-gradient...
 
 ## 各种细节
 
@@ -162,7 +167,7 @@ p:first-of-type{
 ```css
 span ~ p{
     /* + 设置span后的一个p元素
-     * ~ 设置span后的一个p元素
+     * ~ 设置span后的p元素
      * 兄弟选择器
      *   前者元素的后紧挨着指定的兄弟元素
      */
@@ -273,6 +278,8 @@ id选择器                                           		 100
 - letter-spacing 字符之间的间距；word-spacing 设置单词之间的间距
 - text-align 设置文本的对齐方式 left、right、center、justify(两端对齐)
 - text-indent 设置首行缩进 建议2em(可以用来隐藏文字，这样可以让浏览器搜索到，但是用户看不到)
+- font属性简写：font: font-style font-weight font-size/line-height font-family
+- ⭐ 当line-height 设置为元素高度时，即可实现单行文本垂直居中
 
 #### 段落
 
@@ -443,7 +450,7 @@ float可选值：none（默认值，元素默认在文档流排列），left（�
 
 开启固定定位（绝对定位的一种 ），不同的是它相对于**浏览器窗口**进行定位，不会随滚动条滚动，但是 IE6 并不支持
 
-
+⭐ 子绝 父相
 
 #### z-index 
 
