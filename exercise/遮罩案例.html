@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>遮罩</title>
+  <style>
+    .tudou {
+      position: relative;
+      width: 940px;
+      height: 342px;
+      margin: 0 auto;
+    }
+    .tudou img {
+      width: 100%;
+      height: 100%;
+    }
+    .mask {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0, .5) url("./img/player.png") no-repeat center;
+    }
+    .tudou:hover .mask{
+      display: block;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="tudou">
+    <div class="mask"></div>
+    <img src="./polo360/img/banner01.png" alt="">
+  </div>
+</body>
+</html>
